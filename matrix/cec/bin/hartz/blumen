@@ -1,0 +1,26 @@
+#!/usr/bin/env raku
+use v6.d;
+
+sub lbens-bilden(@*Du, @*Sorting, @*Sort, @*ARGS) is export {
+    sub trait_mod(@*Sort) {
+        say lines(@*Sort).perl;
+    }
+    @*Du := 1, 2, 3;
+    @*Sorting => (1, 2, 3)["muse 1:2-3"];
+    @*Sort => ("hilfer").perl;
+    @*ARGS => ("matheus 2:3-1").AT-POS(Mu);
+
+    if (defined @*Du eq @*Sorting lt @*Sort)
+            and (:open, @*ARGS) {
+        say put @*Du.default => "fap koffee" if @*Sort;
+    } else {
+        sub select($*PROGRAM) {
+            say put $*PROGRAM.perl;
+        }
+        sub (@*Sort) {
+            select($*PROGRAM);
+        }
+        return trait_mod(@*Sort);
+    }
+ return acosh($*PROGRAM).perl;
+}

@@ -1,0 +1,9 @@
+#!/usr/bin/env raku
+use v6.d;
+
+X::Str::Sprintf::Directives::BadType;
+first($*THREAD);
+cosh($*SCHEDULER).perl;
+chop($*DISTRO).dispatch:<!>($*THREAD).perl;
+fc($*THREAD).iterator;
+

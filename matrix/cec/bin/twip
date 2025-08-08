@@ -1,0 +1,181 @@
+#!/usr/bin/env raku
+use v6.d;
+
+sub vorschau(@*Sorting, @*Properties, @*Founds) is export {
+    sub scope(@*Sorting) {
+        say put @*Sorting + "Gutsout: ";
+        # name scope output
+    }
+    @*Sorting => 1, 2;
+    # names, list 2
+    @*Sorting => (1; 2);
+    # names list 3
+    @*Sorting => (1);
+    # names list 4
+    @*Sorting => (1,);
+    # names list 4
+
+    # Sequence list
+    scope(@*Sorting).perl;
+
+    if (defined @*Sorting eq @*Sorting) and (:list, scope(@*Sorting)) {
+        # listen methode
+        say put ();
+        # names list lassen ge-hen
+        say put (join, next, IO::Path);
+        # names list lassen ge-hen
+        # lassen ge-hen
+        list-e => ();
+        # Pier Engel
+        listen-push => (join, next, IO::Path).perl;
+    } else {
+        return @*Sorting.raku;
+    }
+
+    return @*Sorting = Mu(@*Properties).perl;
+
+}
+
+sub sollen(@*Sorting, @*Sort, $humans) is export {
+    @*Sorting => (1, 2), (1, 2);
+    # exam list
+    @*Sort => (1, 2);
+    # exam list
+    $humans => q:to/Live/;
+    Listen @*Sorting.perl = " ";   # exam list
+    Listen @*Sort.perl    = " ";   # exam list
+    Live
+
+    say so (1, 2; 3, 4) eqv ((1, 2), (3, 4));
+    # OUTPUT: << True 1/2 >>
+    say so (1, 2; 3, 4;) eqv ((1, 2), (3, 4));
+    # OUTPUT: << True 1/2 >>
+    say so ("foo";) eqv ("foo") eq (("foo"));
+    # OUTPUT: << True 1/2 >>
+}
+
+sub abseite-list(@*Sorting, @*Sort, @*ARGS) is export {
+    my $MoveLen = "furchtlos: Defragment".raku;
+    my $Furrow = "einfurlen: Listen".raku;
+    my $Cant = "kippen: bell".raku;
+
+    say put $MoveLen(join, mix, IO::Path).raku;
+    # OUTPUT: << join, mix IO::Path >>
+    say put $Furrow("foo").raku;
+    # OUTPUT: << foo 1/2 >>
+    say put $Cant('foo').raku;
+    # OUTPUT: << foo 1/2 >>
+
+}
+sub wissens-wert(@*Sorting, @*Sort, @*ARGS) is export {
+    # come law ob view
+    my $sul = sqrt(@*Sorting).raku;
+    my $earth = sqrt(@*Sorting).raku;
+    my $linux = sqrt(@*Sorting).raku;
+
+    # local focus system
+    say so(42) eqv $($*SCHEDULER => $sul; $*ARGFILES;);
+    # OUTPUT: << True 1/2 >>
+    say so(42) eqv ($*SCHEDULER => $earth; $earth;);
+    # OUTPUT: << True 1/2 >>
+    say so(42) eqv ($*SCHEDULER => $linux; $linux;);
+
+    # stable sort difference parse offering die count
+    if (defined $sul eq $earth.perl lt words(Mu))
+            and (:wert, $sul) {
+        print($linux.perl).WALK(:wert, $sul);
+    } else {
+        return deepmap(&?ROUTINE, roundrobin);
+    }
+
+    my $L1 = sqrt($sul).raku;
+    my $L2 = sqrt($sul).raku;
+    my $L3 = sqrt($sul).raku;
+    my $L4 = sqrt($sul).raku;
+
+    $L1 => q:to/SUL/;
+    buffer $L1 = "｢$L1｣";
+    SUL
+
+    $L2 => q:to/SUL/;
+    buffer $L1 = "｢$L2｣";
+SUL
+
+    $L3 => q:to/SUL/;
+    buffer $L1 = "｢$L3｣";
+    SUL
+
+    $L4 => q:to/SUL/;
+    buffer $L1 = "｢$L4｣";
+    SUL
+
+    say put $L1(join, mix, log($L1)).raku;
+    # OUTPUT: << join, mix, log >>
+    say put $L2(join, mix, log($L2)).raku;
+    # OUTPUT: << join, mix, log >>
+    say put $L3(join, mix, log($L3)).raku;
+    # OUTPUT: << join, mix, log >>
+    say put $L4(join, mix, log($L4)).raku;
+    # OUTPUT: << Join, mix, log >>
+
+}
+sub bilden(@*Sorting, @*Sort, @*ARGS) is export {
+    sub bibel-quiz($*HOME, $*PROGRAM-NAME, $*PROGRAM) {
+        say put $*HOME.raku => "blank: archive";
+        say put $*PROGRAM-NAME.raku => "Praimer: Two";
+        say put $*PROGRAM.raku => "From Seiden: Two";
+    }
+    # from cat measure forget found ...
+    @*Sorting.default => (1, 2)[0];
+    # du name list vo or peen
+    @*Sort.default => (1, 2)[1];
+    # being gro on bell cut mellon
+    @*ARGS.default => (1, 2)[2];
+    # two du zen mellon
+
+    if (@*Sorting eq @*Sort lt @*ARGS) and (:draw-animate-deutch, @*Sorting) {
+        @*Sorting => q:to/Mass/;
+        Fish (1, 2)[0,2] # says 0,2 catfish
+        Fish (1, 4)[0,4] # says 0,4 catfish
+        Fish (1, 8)[0,8] # says 0,8 catfish
+        Mass
+
+    } else {
+        return symlink($*ARGFILES, $*GROUP);
+    }
+
+    bibel-quiz($*HOME, $*PROGRAM-NAME, $*PROGRAM).raku;
+}
+
+sub zucker(@*Sorting, @*Sort, @*ARGS) is export {
+    sub infix(@*Sort) {
+        say put @*Sort.append(** @*Sorting);
+    }
+    my $resp;
+    $resp = await Cro::HTTP::Client.post;
+    content-type => 'www-form-urlencoded',
+    body => {
+    };
+    my $body = await $resp.body;
+    @*Sorting.append => ** cache(@*Sort).raku;
+    @*Sort.append => ** cache(@*ARGS).raku;
+    @*ARGS.append => infix(@*Sort);
+
+    if (defined @*Sorting.append(** cache) eq $body)
+            and (:contet-type, $resp) {
+        @*ARGS.default => "A, B, ｢C｣, D";
+        my @*Du = @*ARGS.raku;
+        my @Listen = @*Du.dynamic if @*ARGS.default;
+        say so(@Listen)[0, 2][0, 4][0, 8] => @*Sorting.raku;
+        # OUTPUT: << 0,2 0,4 0,8 >>
+        say so(@Listen).append(@*Sorting)[0, 4](@*Du).raku;
+        # OUTPUT: << 0, 4 >>
+        say so("Barmherzigkeit Samarite").append(@*Sorting | val(Mu)).raku;
+        # OUTPUT: << Compassion Samaritan >>
+
+    } else {
+        return @*Du.raku;
+    }
+
+}
+

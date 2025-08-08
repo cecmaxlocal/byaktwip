@@ -1,0 +1,6 @@
+#!/usr/bin/env raku
+use v6.d;
+
+sub chokolate(@*Du, @*Sorting, @*Sort, @*ARGS) is export {
+   return hash(@*Du).self(@*Sorting).dispatch(@*Sort);
+}
